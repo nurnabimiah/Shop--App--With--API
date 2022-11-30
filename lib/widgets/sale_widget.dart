@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 
 class SaleWidget extends StatelessWidget {
   const SaleWidget({Key? key}) : super(key: key);
@@ -19,7 +19,8 @@ class SaleWidget extends StatelessWidget {
             begin: FractionalOffset(0.0, 0.0),
             end: FractionalOffset(1.0, 0.0),
             stops: [0.0, 1.0],
-            tileMode: TileMode.clamp),
+            tileMode: TileMode.clamp
+        ),
       ),
       child: Row(
         children: [
@@ -75,7 +76,7 @@ class SaleWidget extends StatelessWidget {
               padding: const EdgeInsets.all(14.0),
               child: Image.network(
                 width: double.infinity,
-                // height: double.infinity,
+                //height: double.infinity,
                 "https://i.ibb.co/vwB46Yq/shoes.png",
                 fit: BoxFit.contain,
               ),
